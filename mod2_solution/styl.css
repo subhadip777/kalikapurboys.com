@@ -1,0 +1,67 @@
+body{
+	background-image: url(pic2.jpg);
+	background-attachment: fixed;
+}
+*{
+	box-sizing: border-box;
+
+}
+.row{
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+	font-style: oblique;
+	font-weight: bolder;
+
+}
+label{
+	display: block;
+	border:1px solid black;
+	float: right;
+	margin-top: -10px;
+	margin-right: -10px;
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	padding: 5px;
+	color:darkblue;
+
+	
+}
+
+p{
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border:1px solid blue;
+	position: relative;
+
+}
+@media(min-width: 992px){
+	.co-lg-4{
+		width: 33.33%;
+		float: left;
+		
+		
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+
+	.co-md-6,.co-md-12{
+		float: left;
+	}
+	.co-md-6{
+		width: 50%;
+	}
+	.co-md-12{
+		width: 100%;
+	}
+}
+
+
+	
